@@ -8,12 +8,6 @@
     gap: 3rem;
   }
   
-  @media (max-width: 960px) {
-    .home {
-      padding: 0 2rem;
-    }
-  }
-  
   .home > h1 {
     font-size: 6.5rem;
     background-image: url("/public/Background/coding-background-9izlympnd0ovmpli.jpg");
@@ -49,3 +43,19 @@
     background-image: url(/public/Background/white.jpg);
     background-size: cover;
   } */
+
+  @media (max-width: 960px) {
+    .home {
+      padding: 0 2rem;
+    }
+
+    .home > h1{
+      font-size: 6rem;
+      text-align: center;
+      background-position: -20px -20px;
+    }
+
+    .home{
+      gap: 2rem;
+    }
+  }

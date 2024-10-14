@@ -1,5 +1,5 @@
 nav {
-    height: 10vh;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,13 +8,12 @@ nav {
   }
 
   .light nav{
-    background-color: transparent;
+    /* background-color: red; */
   }
   
-  @media (max-width: 960px) {
-    nav {
-      padding: 0 2rem;
-    }
+  header{
+    position:sticky;
+    top: 0px;
   }
   
   nav > ul {
@@ -39,4 +38,21 @@ nav {
 
   nav h2{
     border-bottom: 1.5px solid ;
+  }
+  nav #short {
+    display: none;
+  }
+
+  @media (max-width: 960px) {
+    nav {
+      padding: 0 2rem;
+    }
+
+    nav #long {
+      display: none;
+    }
+
+    nav #short {
+      display: flex;
+    }
   }
