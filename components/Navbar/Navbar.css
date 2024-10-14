@@ -5,10 +5,13 @@ nav {
     align-items: center;
     padding: 0 8rem;
     flex-wrap: wrap;
+    background-color: #111111;
+    transition: all 1.4s ease-in-out;
+    margin-bottom: 0.5rem;
   }
 
   .light nav{
-    /* background-color: red; */
+    background-color: rgb(227, 223, 201); 
   }
   
   nav img{
@@ -33,11 +36,15 @@ nav {
   }
   
   nav a {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   
   nav a:hover {
     color: var(--highlight);
+  }
+
+  .light nav a:hover {
+    color: #111111;
   }
 
   nav li:hover{
@@ -46,11 +53,16 @@ nav {
   }
 
   nav h2{
-    transition: all 0.3s ease-in-out;
-    font-weight: 400;
+    transition: all 0.1s ease-in-out;
+    font-weight: 100;
   }
   nav #short {
     display: none;
+  }
+
+  .light  nav img{
+    filter: invert(100%);
+    filter:brightness(-70%);
   }
 
   @media (max-width: 960px) {
@@ -62,7 +74,4 @@ nav {
       display: none;
     }
 
-    nav #short {
-      display: flex;
-    }
   }

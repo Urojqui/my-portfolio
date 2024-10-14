@@ -9,7 +9,7 @@
     padding: 0.5rem;
     gap: 0.5rem;
     border-radius: 0.3rem;
-    transition: all 0.5s ease-in-out;
+    transition: all 1s ease-in-out;
     background-color: var(--bg-dark);
   }
   
@@ -21,5 +21,5 @@
   
   .my-btn:hover {
     background-color: var(--highlight);
-    border-radius: 20px;
+    border-radius: 30px;
   }

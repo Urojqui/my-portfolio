@@ -21,7 +21,6 @@ export const Navbar = () => `
 <nav>
 <img src="/public/headerlogo.png"/>
 <h2 id="long">Unai Rojas Quirós</h2>
-<h2 id="short">URQ</h2>
 <ul>
     <li>
         <a href="#" id="homelink">Home</a>

@@ -10,7 +10,7 @@ export const projects = [
     },
     {
       title: "First HTML5 & CSS Project",
-      description: "A short view of a parties travel agency website",
+      description: "Travel agency Landing Page",
       image:
         "/public/Projects/tipevents.png",
       tech: ["HTML5", "CSS3"],
