@@ -1,7 +1,7 @@
 nav {
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     padding: 0 8rem;
     flex-wrap: wrap;
@@ -11,6 +11,10 @@ nav {
     /* background-color: red; */
   }
   
+  nav img{
+    height: 50px;
+  }
+
   header{
     position:sticky;
     top: 0px;
@@ -25,7 +29,7 @@ nav {
     background: none;
     border: none;
     color: inherit;
-    transform: scale(1.5);
+    transform: scale(1.6);
   }
   
   nav a {
@@ -36,8 +40,14 @@ nav {
     color: var(--highlight);
   }
 
+  nav li:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+  }
+
   nav h2{
-    border-bottom: 1.5px solid ;
+    transition: all 0.3s ease-in-out;
+    font-weight: 400;
   }
   nav #short {
     display: none;

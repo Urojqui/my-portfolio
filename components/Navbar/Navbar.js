@@ -19,6 +19,7 @@ export const changeText = () => {
 
 export const Navbar = () => `
 <nav>
+<img src="/public/headerlogo.png"/>
 <h2 id="long">Unai Rojas Quirós</h2>
 <h2 id="short">URQ</h2>
 <ul>

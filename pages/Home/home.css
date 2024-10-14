@@ -27,12 +27,12 @@
   }
 
   .light .home > a:hover {
-    background-color: var(--primary-light);
+    background-color: var(--highlight);
     color: var(--primary-dark);
   }
 
   .home > a:hover{
-    background-color: var(--primary-dark);
+    background-color: var(--highlight);
     color: var(--primary-light);
     width: 150px;
     transition: 1.5s;
