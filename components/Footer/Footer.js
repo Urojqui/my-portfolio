@@ -3,11 +3,11 @@ import { Button } from "../Button/Button";
 
 export const Footer = () => `
 
-<h2>Contact</h2>
+<h2>Find me on</h2>
 <div>
-${Button("/icons/twitter.png", "Twitter")}
-${Button("/icons/github.png", "GitHub")}
-${Button("/icons/linkedin.png", "LinkedIn")}
-${Button("/icons/telegram.png", "Telegram")}
+${Button("/public/icons/twitter.png", "Twitter")}
+${Button("/public/icons/github.png", "GitHub")}
+${Button("/public/icons/linkedin.png", "LinkedIn")}
+${Button("/public/icons/telegram.png", "Telegram")}
 </div>
 `;

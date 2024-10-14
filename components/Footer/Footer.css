@@ -9,7 +9,7 @@ footer {
     margin: 2rem 0;
   }
   
-  @media (max-width: 770px) {
+  @media (max-width: 960px) {
     footer {
       padding: 0 2rem;
       gap: 2rem;
@@ -21,3 +21,6 @@ footer {
     gap: 1rem;
     flex-wrap: wrap;
   }
+
+ 
+/*   Hacer selector video insta con circulos */

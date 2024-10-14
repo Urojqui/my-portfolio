@@ -8,20 +8,33 @@
     gap: 3rem;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 960px) {
     .home {
       padding: 0 2rem;
     }
   }
   
   .home > h1 {
-    font-size: 5.5rem;
-    background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
-    -webkit-background-clip: text;
+    font-size: 6.5rem;
+    background-image: url("/public/Background/coding-background-9izlympnd0ovmpli.jpg");
+    background-size: contain;  
+    background-position: -80px -100px;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px white;
   }
   
   .home > a {
     font-size: 1.5rem;
+    width: 150px;
+    border-radius: 20px;
+  }
+
+  .home > a:hover{
+    background-color: var(--highlight);
+    width: 150px;
+    transition: 1.5s;
+    padding-left: 20px;
   }
