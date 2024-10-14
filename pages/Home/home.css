@@ -32,9 +32,20 @@
     border-radius: 20px;
   }
 
+  .light .home > a:hover {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+  }
+
   .home > a:hover{
-    background-color: var(--highlight);
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
     width: 150px;
     transition: 1.5s;
     padding-left: 20px;
   }
+
+ /*  .light .home{
+    background-image: url(/public/Background/white.jpg);
+    background-size: cover;
+  } */
