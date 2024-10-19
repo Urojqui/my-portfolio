@@ -1,18 +1,20 @@
 .home {
     padding: 0 8rem;
     height: 80vh;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 3rem;
+    position: absolute;
   }
   
   .home > h1 {
     font-size: 6.5rem;
     background-image: url("/public/Background/coding-background-9izlympnd0ovmpli.jpg");
     background-size: contain;  
-    background-position: -80px -100px;
+    background-position: -80px -100px; 
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -42,9 +44,28 @@
     background-size: cover;
   } */
 
+   .background{
+    background-image: url("/public/Background/952-9523355_binary-code-to-text-programming-code-transparent-background.png");
+    width: 400px;
+    filter: invert(1);
+    background-size:cover;
+    position: absolute;
+    right: 0;
+    display: flex;
+    height: 80vh;
+    margin-top: 5px;
+    transition: ease-in-out 2s;
+  } 
+
+  .light .background{
+    filter: invert(0);
+    transition: ease-in-out 3s;
+  }
+
   @media (max-width: 960px) {
     .home {
       padding: 0 2rem;
+      width: 100%;
     }
 
     .home > h1{
@@ -56,4 +77,12 @@
     .home{
       gap: 2rem;
     }
+
+    .background{
+      display: none
+    }
   }
+  
+
+
+  
