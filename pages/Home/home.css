@@ -1,88 +1,94 @@
 .home {
-    padding: 0 8rem;
-    height: 80vh;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3rem;
-    position: absolute;
+  padding: 0 8rem;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.glass > h1 {
+  font-size: 2.5rem;
+} 
+
+.glass > a {
+  font-size: 1.5rem;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.light .glass > a:hover {
+  background-color: var(--highlight);
+}
+
+.glass > a:hover {
+  background-color: var(--highlight);
+  width: 150px;
+  transition: 1.5s;
+  padding-left: 20px;
+}
+
+.background {
+  background-image: url("/public/Background/952-9523355_binary-code-to-text-programming-code-transparent-background.png");
+  width: 40vh;
+  filter: invert(1);
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  display: flex;
+  height: 85vh;
+  margin-top: 5px;
+  /* transition: ease-in-out 2s; */
+  align-self: center;
+}
+
+.light .background {
+  filter: invert(0);
+  transition: ease-in-out 3s;
+}
+
+.glass{
+  height: 500px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(8px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.4); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  padding: 0 1rem;
+  max-width: 1000px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.light .glass{
+  background: rgba(220, 216, 186, 0.4); /* Fondo blanco semitransparente */
+  backdrop-filter: blur(12px); /* Ajusta el desenfoque para el efecto de vidrio */
+  -webkit-backdrop-filter: blur(12px); /* Compatibilidad con Safari */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde ligero para definición */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Sombra ligera para realzar */
+  color: #333; /* Color oscuro para contraste */
+}
+
+@media (max-width: 960px) {
+  .home {
+    padding: 0 2rem;
+    width: 100%;
   }
-  
+
   .home > h1 {
-    font-size: 6.5rem;
-    background-image: url("/public/Background/coding-background-9izlympnd0ovmpli.jpg");
-    background-size: contain;  
-    background-position: -80px -100px; 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-transform: uppercase;
-    -webkit-text-stroke: 0.5px white;
-  }
-  
-  .home > a {
-    font-size: 1.5rem;
-    width: 150px;
-    border-radius: 20px;
+    font-size: 6rem;
+    text-align: center;
+    background-position: -20px -20px;
   }
 
-  .light .home > a:hover {
-    background-color: var(--highlight);
+  .home {
+    gap: 2rem;
   }
 
-  .home > a:hover{
-    background-color: var(--highlight);
-    width: 150px;
-    transition: 1.5s;
-    padding-left: 20px;
+  .background {
+    display: none;
   }
-
- /*  .light .home{
-    background-image: url(/public/Background/white.jpg);
-    background-size: cover;
-  } */
-
-   .background{
-    background-image: url("/public/Background/952-9523355_binary-code-to-text-programming-code-transparent-background.png");
-    width: 400px;
-    filter: invert(1);
-    background-size:cover;
-    position: absolute;
-    right: 0;
-    display: flex;
-    height: 80vh;
-    margin-top: 5px;
-    transition: ease-in-out 2s;
-  } 
-
-  .light .background{
-    filter: invert(0);
-    transition: ease-in-out 3s;
-  }
-
-  @media (max-width: 960px) {
-    .home {
-      padding: 0 2rem;
-      width: 100%;
-    }
-
-    .home > h1{
-      font-size: 6rem;
-      text-align: center;
-      background-position: -20px -20px;
-    }
-
-    .home{
-      gap: 2rem;
-    }
-
-    .background{
-      display: none
-    }
-  }
-  
-
-
-  
+}

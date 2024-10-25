@@ -7,7 +7,6 @@ nav {
     flex-wrap: wrap;
     background-color: #111111;
     transition: all 1.4s ease-in-out;
-    /* margin-bottom: 0.5rem; */
   }
 
   .light nav{
@@ -21,6 +20,7 @@ nav {
   header{
     position:sticky;
     top: 0px;
+    z-index: 1000;
   }
   
   nav > ul {
