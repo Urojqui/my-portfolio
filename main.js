@@ -3,7 +3,7 @@ import { changeTheme } from "./components/Navbar/Navbar";
 import { linkPage } from "./utils/linkPage";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Footer } from "./components/Footer/Footer";
-import { Home } from "./pages/Home/Home";
+import { Home } from "./pages/Home/home";
 import { Projects } from "./pages/Projects/Projects";
 import { Divider } from "./components/Divider/Divider";
 
