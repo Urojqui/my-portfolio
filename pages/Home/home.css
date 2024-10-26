@@ -61,15 +61,17 @@
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
+  transition: ease-in 1s;
 }
 
 .light .glass{
-  background: rgba(220, 216, 186, 0.4); /* Fondo blanco semitransparente */
-  backdrop-filter: blur(12px); /* Ajusta el desenfoque para el efecto de vidrio */
-  -webkit-backdrop-filter: blur(12px); /* Compatibilidad con Safari */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde ligero para definición */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Sombra ligera para realzar */
-  color: #333; /* Color oscuro para contraste */
+  background: rgba(220, 216, 186, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  color: #333;
+  transition: ease-out 2s;
 }
 
 @media (max-width: 960px) {

@@ -23,6 +23,11 @@ export const ProjectCard = (project) => `
 <p>${project.description}</p>
 <p class="tech">${project.tech.join(" - ")}</p>
 </div>
+<div class="logos">
+  <img src="/public/logos/HTML5.png" alt="HTML5 logo""/> 
+  <img src="/public/logos/CSS3.png" alt="CSS3 logo""/>
+  <img src="/public/logos/JS.png" alt="CSS3 logo""/>
+</div>
 </div>
 </div>
 </div>

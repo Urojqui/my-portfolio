@@ -22,4 +22,9 @@
   .my-btn:hover {
     background-color: var(--highlight);
     border-radius: 30px;
+    color: black;
+  }
+
+  .my-btn:hover img {
+    filter: invert(1%);
   }

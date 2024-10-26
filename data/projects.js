@@ -19,10 +19,10 @@ export const projects = [
     },
     {
       title: "Marc Marquez Merchandising",
-      description: "As a MotoGP fan, I really love Marc Marquez.",
+      description: "As a MotoGP fan, I replied Marc Marquez Merchandising website",
       image:
         "/public/Projects/mm93.jpg",
-      tech: ["HTML5", "CSS3"],
+      tech: [,"HTML5", "CSS3"],
       github: "https://github.com/Urojqui/proyecto_1.git",
       link: "https://mm93.netlify.app/",
     },
