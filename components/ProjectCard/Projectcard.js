@@ -23,6 +23,7 @@ export const ProjectCard = (project) => `
 <p>${project.description}</p>
 <p class="tech">${project.tech.map((tech) => tech.name).join(" - ")}</p>
 </div>
+
 <section class="logos">
 ${project.tech.map((tech) =>`<img src="${tech.logo}" alt="${tech.name} logo" class="tech-logo" />` ).join("")}
  </section>
