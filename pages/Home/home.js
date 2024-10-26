@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./home.css";
 import { cleanPage } from "../../utils/cleanPage";
 
 export const Home = () => {
