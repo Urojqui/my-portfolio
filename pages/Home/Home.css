@@ -1,0 +1,98 @@
+.home {
+  padding: 0 8rem;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.glass > h1 {
+  font-size: 2.5rem;
+} 
+
+.glass > a {
+  font-size: 1.5rem;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.light .glass > a:hover {
+  background-color: black;
+  color: var(--highlight);
+}
+
+.glass > a:hover {
+  background-color: var(--highlight);
+  width: 150px;
+  transition: 1.5s;
+  padding-left: 20px;
+  color: black;
+}
+
+.background {
+  background-image: url("/public/Background/952-9523355_binary-code-to-text-programming-code-transparent-background.png");
+  width: 40vh;
+  filter: invert(1);
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  display: flex;
+  height: 85vh;
+  margin-top: 5px;
+  /* transition: ease-in-out 2s; */
+  align-self: center;
+}
+
+.light .background {
+  filter: invert(0);
+  transition: ease-in-out 3s;
+}
+
+.glass{
+  height: 500px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(8px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.4); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  padding: 0 1rem;
+  max-width: 1000px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  transition: ease-in 1s;
+}
+
+.light .glass{
+  background: rgba(220, 216, 186, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  color: #333;
+  transition: ease-out 2s;
+}
+
+@media (max-width: 960px) {
+  .home {
+    padding: 0 2rem;
+    width: 100%;
+  }
+
+  .home > h1 {
+    font-size: 6rem;
+    text-align: center;
+    background-position: -20px -20px;
+  }
+
+  .home {
+    gap: 2rem;
+  }
+
+  .background {
+    display: none;
+  }
+}
