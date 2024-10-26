@@ -21,13 +21,11 @@ export const ProjectCard = (project) => `
 
 <div class="detail">
 <p>${project.description}</p>
-<p class="tech">${project.tech.join(" - ")}</p>
+<p class="tech">${project.tech.map((tech) => tech.name).join(" - ")}</p>
 </div>
-<div class="logos">
-  <img src="/public/logos/HTML5.png" alt="HTML5 logo""/> 
-  <img src="/public/logos/CSS3.png" alt="CSS3 logo""/>
-  <img src="/public/logos/JS.png" alt="CSS3 logo""/>
-</div>
+<section class="logos">
+${project.tech.map((tech) =>`<img src="${tech.logo}" alt="${tech.name} logo" class="tech-logo" />` ).join("")}
+ </section>
 </div>
 </div>
 </div>
