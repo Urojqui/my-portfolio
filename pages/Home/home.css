@@ -18,7 +18,8 @@
 }
 
 .light .glass > a:hover {
-  background-color: var(--highlight);
+  background-color: black;
+  color: var(--highlight);
 }
 
 .glass > a:hover {
@@ -26,6 +27,7 @@
   width: 150px;
   transition: 1.5s;
   padding-left: 20px;
+  color: black;
 }
 
 .background {
