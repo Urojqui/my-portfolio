@@ -5,10 +5,10 @@ export const projects = [
     image:
       "https://www.bleepstatic.com/content/hl-images/2021/05/10/GitHub-headpic.jpg",
     tech: [
-      { name: "React", logo: "/public/logos/React.png" },
-      { name: "HTML5", logo: "/public/logos/html5.png" },
-      { name: "CSS3", logo: "/public/logos/css3.png" },
-      { name: "JavaScript", logo: "/public/logos/JS.png" },
+      { name: "React", logo: "/logos/React.png" },
+      { name: "HTML5", logo: "/logos/html5.png" },
+      { name: "CSS3", logo: "/logos/css3.png" },
+      { name: "JavaScript", logo: "/logos/JS.png" },
     ],
     github: "https://github.com/Urojqui",
     link: "https://github.com/Urojqui",
@@ -16,10 +16,10 @@ export const projects = [
   {
     title: "First HTML5 & CSS Project",
     description: "Travel agency Landing Page",
-    image: "/public/Projects/tipevents.png",
+    image: "/Projects/tipevents.png",
     tech: [
-      { name: "HTML5", logo: "/public/logos/html5.png" },
-      { name: "CSS3", logo: "/public/logos/css3.png" },
+      { name: "HTML5", logo: "/logos/html5.png" },
+      { name: "CSS3", logo: "/logos/css3.png" },
     ],
     github: "https://github.com/Urojqui/test_TipEvents.git",
     link: "https://tipeventstomorrowland.netlify.app/",
@@ -28,10 +28,10 @@ export const projects = [
     title: "Marc Marquez Merchandising",
     description:
       "As a MotoGP fan, I replied Marc Marquez Merchandising website",
-    image: "/public/Projects/mm93.jpg",
+    image: "/Projects/mm93.jpg",
     tech: [
-      { name: "HTML5", logo: "/public/logos/html5.png" },
-      { name: "CSS3", logo: "/public/logos/css3.png" },
+      { name: "HTML5", logo: "/logos/html5.png" },
+      { name: "CSS3", logo: "/logos/css3.png" },
     ],
     github: "https://github.com/Urojqui/proyecto_1.git",
     link: "https://mm93.netlify.app/",
@@ -39,10 +39,10 @@ export const projects = [
   {
     title: "Nike Store",
     description: "First project using DOM",
-    image: "/public/Projects/Nike.jpg",
+    image: "/Projects/Nike.jpg",
     tech: [
-      { name: "HTML5", logo: "/public/logos/html5.png" },
-      { name: "CSS3", logo: "/public/logos/css3.png" },
+      { name: "HTML5", logo: "/logos/html5.png" },
+      { name: "CSS3", logo: "/logos/css3.png" },
       { name: "JavaScript", logo: "/public/logos/JS.png" }],
     github: "https://github.com/Urojqui/practica_dom.git",
     link: "https://nike-store-web.netlify.app/",
