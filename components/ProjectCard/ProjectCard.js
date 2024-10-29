@@ -25,9 +25,10 @@ export const ProjectCard = (project) => `
 </div>
 
 <section class="logos">
-${project.tech.map((tech) =>`<img src="${tech.logo}" alt="${tech.name} logo" class="tech-logo" />` ).join("")}
- </section>
+${project.tech.map((tech) =>`<img src="${tech.logo}" alt="${tech.name} logo" class="tech-logo" />`).join("")}
+</section>
 </div>
 </div>
+<button class="hover-button">Ver más</button> 
 </div>
 `;
