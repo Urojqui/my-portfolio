@@ -25,7 +25,7 @@
 .glass > a:hover {
   background-color: var(--highlight);
   width: 150px;
-  transition: 1.5s;
+  transition: 1s;
   padding-left: 20px;
   color: black;
 }
@@ -40,13 +40,12 @@
   display: flex;
   height: 85vh;
   margin-top: 5px;
-  /* transition: ease-in-out 2s; */
   align-self: center;
 }
 
 .light .background {
   filter: invert(0);
-  transition: ease-in-out 3s;
+  transition: ease-in-out 1s;
 }
 
 .glass{
@@ -73,7 +72,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
   color: #333;
-  transition: ease-out 2s;
+  transition: ease-out 1s;
 }
 
 @media (max-width: 960px) {

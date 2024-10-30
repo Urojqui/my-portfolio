@@ -32,13 +32,13 @@ html {
 body {
   background-color: var(--bg-dark);
   color: var(--primary-dark);
-  transition:  1.5s ease-in-out;
+  transition:  1s ease-in-out;
 }
 
 .light {
   background-color: var(--bg-light);
   color: var(--primary-light);
-  transition: ease-in-out 2s;
+  transition: ease-in-out 1s;
 }
 
 main {

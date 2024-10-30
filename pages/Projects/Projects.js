@@ -17,6 +17,7 @@ export const Projects = () => {
   for (const project of projects) {
     const figure = document.createElement("figure");
     figure.innerHTML = ProjectCard(project);
+    figure.classList.add("project-figure")
     container.appendChild(figure);
   }
 };
