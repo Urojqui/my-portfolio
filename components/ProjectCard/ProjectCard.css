@@ -2,11 +2,11 @@
   max-width: 100%; 
   border: 1px solid #bbb9b9;
   border-radius: 14px;
-  height: 254px;
+  height: 250px;
 }
 
 .light .frontside{
-  border: 2px solid #111111;
+  border: 1px solid #111111;
   border-radius: 14px;
   height: 250px;
   background-color: rgb(241, 236, 224); 
