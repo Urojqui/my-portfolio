@@ -2,11 +2,11 @@
   max-width: 100%; 
   border: 1px solid #bbb9b9;
   border-radius: 14px;
-  height: 250px;
+  height: 254px;
 }
 
 .light .frontside{
-  border: 1px solid #111111;
+  border: 2px solid #111111;
   border-radius: 14px;
   height: 250px;
   background-color: rgb(241, 236, 224); 
@@ -69,13 +69,6 @@
 
 /*HOVER*/
 
-.project-figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  margin-bottom: 20px;
-}
-
 .main-container{
   display: flex;
   flex-direction: column;
@@ -88,7 +81,7 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: all 1.2s ease;
+  transition: all 1s ease;
 }
 
 .frontside{
@@ -122,11 +115,8 @@
   display: flex;
 }
 
-.hover-button:hover ~ .main-container .project-card {
-  transform: rotateY(180deg);
-}
-
-.project-figure:hover .project-card {
+.main-container:hover .project-card,
+.hover-button:hover ~ .project-card {
   transform: rotateY(180deg);
 }
 

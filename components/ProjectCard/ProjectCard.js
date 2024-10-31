@@ -29,6 +29,6 @@ ${project.tech.map((tech) =>`<img src="${tech.logo}" alt="${tech.name} logo" cla
 </section>
 </div>
 </div>
-</div>
 <button class="hover-button">More info</button> 
+</div>
 `;
