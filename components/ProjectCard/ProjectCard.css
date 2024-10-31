@@ -67,38 +67,40 @@
   color: rgb(137, 137, 243);
 }
 
-.project-figure { 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /*HOVER*/
 
-.main-container {
-  position: relative;
-  background: none;
-  perspective: 1000px;
+.project-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 20px;
 }
 
-.project-card {
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 10px; 
+}
+
+.project-card{
   position: relative;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: all 1s ease;
+  transition: all 1.5s ease;
 }
 
-.frontside {
+.frontside{
   backface-visibility: hidden;
   overflow: hidden;
-  position: relative;
+  position:relative;
   top: 0;
   left: 0;
   width: 100%;
-}
+} 
 
-.backside {
+.backside{
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -118,8 +120,6 @@
   border: none;
   border-radius: 4px;
   display: flex;
-  width: 150px;
-  justify-content: center;
 }
 
 .hover-button:hover ~ .main-container .project-card {
