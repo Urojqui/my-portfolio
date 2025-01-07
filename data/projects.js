@@ -9,6 +9,7 @@ export const projects = [
       { name: "HTML5", logo: "/logos/HTML5.png" },
       { name: "CSS3", logo: "/logos/CSS3.png" },
       { name: "JavaScript", logo: "/logos/JS.png" },
+      { name: "Vite", logo: "/logos/Vite.png" },
     ],
     github: "https://github.com/Urojqui",
     link: "https://github.com/Urojqui",
