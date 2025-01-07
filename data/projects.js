@@ -48,4 +48,18 @@ export const projects = [
     github: "https://github.com/Urojqui/practica_dom.git",
     link: "https://nike-store-web.netlify.app/",
   },
+
+  {
+    title: "Nike Store",
+    description: "First project using DOM",
+    image: "/Projects/Nike.jpg",
+    tech: [
+      { name: "HTML5", logo: "/logos/HTML5.png" },
+      { name: "CSS3", logo: "/logos/CSS3.png" },
+      { name: "JavaScript", logo: "/logos/JS.png" },
+    ],
+    github: "https://github.com/Urojqui/practica_dom.git",
+    link: "https://nike-store-web.netlify.app/",
+  },
+  
 ];
