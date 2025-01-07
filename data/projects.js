@@ -5,7 +5,6 @@ export const projects = [
     image:
       "https://www.bleepstatic.com/content/hl-images/2021/05/10/GitHub-headpic.jpg",
     tech: [
-      { name: "React", logo: "/logos/React.png" },
       { name: "HTML5", logo: "/logos/HTML5.png" },
       { name: "CSS3", logo: "/logos/CSS3.png" },
       { name: "JavaScript", logo: "/logos/JS.png" },
@@ -53,15 +52,15 @@ export const projects = [
   {
     title: "Inspirest",
     description: "Inspired by Pinterest",
-    image: "/Projects/Nike.jpg",
+    image: "https://cdn.icon-icons.com/icons2/2044/PNG/512/pinterest_logo_icon_124347.png",
     tech: [
       { name: "HTML5", logo: "/logos/HTML5.png" },
       { name: "CSS3", logo: "/logos/CSS3.png" },
       { name: "JavaScript", logo: "/logos/JS.png" },
       { name: "Vite", logo: "/logos/Vite.png" },
     ],
-    github: "https://github.com/Urojqui/practica_dom.git",
-    link: "https://nike-store-web.netlify.app/",
+    github: "https://github.com/Urojqui/proyecto_async_inspirest.git",
+    link: "https://inspirest.netlify.app/",
   },
   
 ];

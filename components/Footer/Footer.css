@@ -9,6 +9,15 @@ footer {
     margin: 2rem 0;
   }
   
+  @media screen and (width <= 455px) {
+    footer {
+      justify-content: center;
+    }
+    div{
+      justify-content: center;
+    }
+  }
+
   @media (max-width: 960px) {
     footer {
       padding: 0 2rem;
@@ -23,4 +32,3 @@ footer {
   }
 
  
-/*   Hacer selector video insta con circulos */

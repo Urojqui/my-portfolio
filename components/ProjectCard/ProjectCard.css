@@ -134,7 +134,8 @@
 
 .logos {
   display: flex;
-  justify-content: right;
+  justify-content: end;
+  flex-wrap: wrap;
   position: absolute; 
   bottom: 10px; 
   right: 10px; 
